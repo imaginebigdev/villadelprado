@@ -1,15 +1,14 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
-import Numbers from "../../components/Numbers/numbers";
-import Blogs2 from "../../components/blogs/Blogs2/blogs2";
-import CallToAction from "../../components/Call-to-action/call-to-action";
-import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
-import Services4 from "../../components/Services4/services4";
 import AboutUs4 from "../../components/About-us4/about-us4";
-import WorksStyle3 from "../../components/Works-style3/works-style3";
-import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
+import Services from "../../components/Services/services";
+import AboutUs2 from "../../components/About-us2/about-us2";
+import WorksStyle2 from "../../components/Works-style2/works-style2";
+import Works from "../../components/Works/works";
+import Footer2 from "../../components/Footer2/footer2";
+import FooterArch from "../../components/Footer-arch/footer-arch";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -42,18 +41,16 @@ const Homepage1 = () => {
   }, [fixedSlider, MainContent, navbarRef]);
 
   return (
-    <LightTheme>
+    <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
-        <Services4 />
+        <Services style="4item" />
         <AboutUs4 />
-        <Numbers />
-        <WorksStyle3 />
-        <FullTestimonials />
-        <Blogs2 />
-        <CallToAction img="/img/patrn1.png" />
-        <Footer />
+        <AboutUs2 />
+        <WorksStyle2 grid={2} />
+        <Works />
+        <Footer2 />
       </div>
     </LightTheme>
   );
