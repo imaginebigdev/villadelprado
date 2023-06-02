@@ -17,7 +17,7 @@ const Works = () => {
     setPageLoaded(true);
   }, [pageLoaded]);
   return (
-    <section className="work-carousel metro position-re">
+    <section className="work-carousel metro position-re pb-100">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 no-padding">

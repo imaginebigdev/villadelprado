@@ -87,15 +87,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
-                          {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
-                            <a className="butn bord curve mt-30">
-                              <span>Look More</span>
-                            </a>
-                          </Link>
-                        </div>
+                        <div className="caption center mt-30"></div>
                       </div>
                     </div>
                   </div>
@@ -121,17 +113,33 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
+          <a
+            href="https://www.facebook.com/comunavilladelprado"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0">
+          <a
+            href="https://twitter.com/villadelpradotw"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-behance"></i>
+          <a
+            href="https://www.tiktok.com/@comunavilladelprado?_t=8ZDhTxglmFS&_r=1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-tiktok"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
+          <a
+            href="https://www.instagram.com/comunavilladelprado/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
       </div>

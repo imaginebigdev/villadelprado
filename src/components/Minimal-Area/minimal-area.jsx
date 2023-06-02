@@ -11,14 +11,17 @@ const MinimalArea = () => {
     }, 1000);
   }, []);
   return (
-    <section className="min-area sub-bg">
+    <section className="min-area">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="img">
               <img
-                className="thumparallax-down"
-                src="/img/min-area.jpg"
+                style={{
+                  borderRadius: "100%",
+                  boxShadow: "0 4px 12px rgba(0,0,0,.5)",
+                }}
+                src="/img/min-area.png"
                 alt=""
               />
             </div>

@@ -26,7 +26,7 @@ const Services = ({ style, lines }) => {
             ? featuresData.map((feature) => (
                 <div
                   key={feature.id}
-                  className="col-lg-6 wow fadeInLeft"
+                  className="col-lg-6 "
                   data-wow-delay={`${
                     feature.id == 1
                       ? ".5"

@@ -64,7 +64,7 @@ const Footer2 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item-clumn links">
-              <h5 className="title mb-30">Contact</h5>
+              <h5 className="title mb-30">Contacto</h5>
               <div className="info">
                 <span>Email Address</span>
                 <h6>
@@ -72,17 +72,33 @@ const Footer2 = () => {
                 </h6>
               </div>
               <div className="social mt-30">
-                <a href="#0">
+                <a
+                  href="https://www.facebook.com/comunavilladelprado"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://twitter.com/villadelpradotw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
+                <a
+                  href="https://www.tiktok.com/@comunavilladelprado?_t=8ZDhTxglmFS&_r=1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-tiktok"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a
+                  href="https://www.instagram.com/comunavilladelprado/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>

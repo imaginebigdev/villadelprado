@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import appData from '../../data/app.json'
+import appData from "../../data/app.json";
 
 const FooterArch = () => {
   return (
@@ -10,7 +10,44 @@ const FooterArch = () => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Numeros utiles</h5>
+              </div>
+              <ul>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+                  <div className="sm-post">
+                    <h5>Atención al vecino</h5>
+                    <h5>(3547) 628325</h5>
+                  </div>
+                </li>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+                  <div className="sm-post">
+                    <h5>Policia</h5>
+                    <h5>(3547) 428177</h5>
+                  </div>
+                </li>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+                  <div className="sm-post">
+                    <h5>Defensa Civil</h5>
+                    <h5>(3547) 507415</h5>
+                  </div>
+                </li>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+                  <div className="sm-post">
+                    <h5>Comuna</h5>
+                    <h5>(3547) 428177</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            {/* <div className="item md-mb50">
+              <div className="title">
+                <h5>Contacto</h5>
               </div>
               <ul>
                 <li>
@@ -35,46 +72,7 @@ const FooterArch = () => {
                   </div>
                 </li>
               </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Recent News</h5>
-              </div>
-              <ul>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/1.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2022</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <img src="/img/blog/2.jpg" alt="" />
-                  </div>
-                  <div className="sm-post">
-                    <p>
-                      The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.
-                    </p>
-                    <span className="date main-color">14 sep 2022</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane back-color"></span>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-4">
             <div className="item">
@@ -82,17 +80,33 @@ const FooterArch = () => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a
+                  href="https://www.facebook.com/comunavilladelprado"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a
+                  href="https://twitter.com/villadelpradotw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-instagram"></i>
+                <a
+                  href="https://www.tiktok.com/@comunavilladelprado?_t=8ZDhTxglmFS&_r=1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-tiktok"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a
+                  href="https://www.instagram.com/comunavilladelprado/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
               <div className="copy-right">
