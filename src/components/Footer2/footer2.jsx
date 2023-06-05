@@ -16,61 +16,50 @@ const Footer2 = () => {
               </p>
             </div>
           </div>
+
           <div className="col-lg-3 col-md-6">
             <div className="item-clumn links md-mb50">
-              <h5 className="title">Resources</h5>
               <ul>
                 <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Our Products</a>
+                  <h6>Atención al vecino</h6>
                 </li>
                 <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Blogs & Guides</a>
+                  <span className="icon pe-7s-call"></span>
+
+                  <a>(3547) 628325</a>
                 </li>
                 <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Premium Support</a>
+                  <h6>Policia</h6>
                 </li>
                 <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Need a Career ?</a>
+                  <span className="icon pe-7s-call"></span>
+
+                  <a>(3547) 428177</a>
+                </li>
+                <li>
+                  <h6>Defensa civil</h6>
+                </li>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+
+                  <a>(3547) 507415</a>
+                </li>
+                <li>
+                  <h6>Comuna</h6>
+                </li>
+                <li>
+                  <span className="icon pe-7s-call"></span>
+
+                  <a>(3547) 428177</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-md-6">
-            <div className="item-clumn links sm-mb50">
-              <h5 className="title">Links</h5>
-              <ul>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Support</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Privacy</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="#0">Setting</a>
-                </li>
-                <li>
-                  <span className="icon pe-7s-angle-right"></span>
-                  <a href="0">My Account</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+
           <div className="col-lg-3 col-md-6">
             <div className="item-clumn links">
               <h5 className="title mb-30">Contacto</h5>
-              <div className="info">
-                <span>Email Address</span>
-                <h6>
-                  <a href="#0">support@gmail.com</a>
-                </h6>
-              </div>
+
               <div className="social mt-30">
                 <a
                   href="https://www.facebook.com/comunavilladelprado"
@@ -110,15 +99,15 @@ const Footer2 = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <p>© 2022 Vie. All Rights Reserved</p>
+                <p>
+                  © 2023 Imagine Big. Pagina oficial de la municipalidad Villa
+                  Del Prado
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="circle-blur"></div>
-      <div className="circle-blur two"></div>
     </footer>
   );
 };

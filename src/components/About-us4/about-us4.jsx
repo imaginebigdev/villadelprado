@@ -14,14 +14,14 @@ const AboutUs4 = () => {
           </div>
           <div className="col-lg-4 valign">
             <div className="cont full-width">
-              <h3 className="color-font">Huge collection.</h3>
+              <h1 className="color-font">Feria de la familia</h1>
               <h6>
-                Innovative solutions <br /> to boost your creative projects.
+                Todos los jueves 20:00hs <br /> Plaza central Villa Del Prado
               </h6>
 
               <div className="vid-area">
                 <div className="vid-icon">
-                  <Link href="/cultura/familia">
+                  <Link href="/cultura">
                     <a className="butn bord curve mt-30">Saber mas</a>
                   </Link>
                 </div>

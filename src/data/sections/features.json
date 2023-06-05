@@ -1,26 +1,30 @@
 [
-    {
-        "id": 1,
-        "icon": "pe-7s-paint-bucket",
-        "title": "Graphic Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    },
-    {
-        "id": 2,
-        "icon": "pe-7s-phone",
-        "title": "Web & Mobile Design",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    },
-    {
-        "id": 3,
-        "icon": "pe-7s-display1",
-        "title": "Social Media Marketing",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit."
-    },
-    {
-        "id": 4,
-        "icon": "pe-7s-diskette",
-        "title": "Document Legal Policy",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
-    }
+  {
+    "id": 1,
+    "icon": "fa fa-shield-alt",
+    "title": "Defensa civil",
+    "phone": "5493547507415",
+    "content": "Sebastian Hernandez"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-book-medical",
+    "title": "Salud",
+    "phone": "5493547628325",
+    "content": "Marcelo Herrera"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-volleyball-ball",
+    "title": "Deportes",
+    "phone": "5493547572419",
+    "content": "Ulises Benegas"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-id-card",
+    "title": "Licencias de conducir",
+    "phone": "5493547501022",
+    "content": "Mariela Belen Lujan"
+  }
 ]

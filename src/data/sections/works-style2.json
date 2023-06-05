@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "tittle": "TITULO 1",
+    "tittle": "Niños exploradores",
     "img": "/img/portfolio/portfolio/1/1.jpg",
-    "link": "",
-    "subtittle": "contenido 1",
+    "link": "/deportes",
+    "subtittle": "Polideportivo",
     "whatsapp": "",
     "instagram": ""
   },
   {
     "id": 2,
-    "tittle": "TITULO 2",
+    "tittle": "Cursos y talleres",
     "img": "/img/portfolio/portfolio/1/1.jpg",
-    "link": "",
-    "subtittle": "contenido 2",
+    "link": "/cultura",
+    "subtittle": "Centro cultural Mercedes Sosa",
     "whatsapp": "",
     "instagram": ""
   }

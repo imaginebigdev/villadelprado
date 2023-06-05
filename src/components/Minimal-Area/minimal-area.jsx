@@ -28,37 +28,30 @@ const MinimalArea = () => {
           </div>
           <div className="col-lg-6 valign">
             <div className="content pt-0">
-              <h4 className="wow color-font">About us.</h4>
+              <h4 className="wow color-font">Nelson Luján</h4>
               <p className="wow txt" data-splitting>
-                Our creative Ad agency is ranked among the finest in the US. We
-                cultivate smart ideas for start-ups and seasoned players.
+                Presidente de la Comuna Villa del Prado, Departamento Santa
+                María, Córdoba, Argentina.
               </p>
-              <ul className="feat">
-                <li className="wow fadeInUp" data-wow-delay=".2s">
-                  <h6>
-                    <span>1</span> Our Mission
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay=".4s">
-                  <h6>
-                    <span>2</span> Our Goals
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay=".6s">
-                  <h6>
-                    <span>3</span> Why Us?
-                  </h6>
-                  <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
-                </li>
-              </ul>
+              <div className="social-icon">
+                <a
+                  className="portfolioSocialIcons"
+                  href={`https://api.whatsapp.com/send?phone=5493547628325`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+
+                <a
+                  className="portfolioSocialIcons"
+                  href="https://www.instagram.com/nelsonlujanok/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

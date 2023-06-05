@@ -25,9 +25,7 @@ const AboutUs2 = () => {
                   </div>
                   <div className="container">
                     <div className="row">
-                      <div className="col-md-6">
-                        
-                      </div>
+                      <div className="col-md-6"></div>
                       <div className="col-md-6"></div>
                     </div>
                   </div>
@@ -37,15 +35,12 @@ const AboutUs2 = () => {
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="content">
-              <div className="sub-title">
-                <h6>{AboutUs2Date.smallTitle}</h6>
-              </div>
               <Split>
                 <h3
                   className="words chars splitting main-title wow"
                   data-splitting
                 >
-                  {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
+                  {AboutUs2Date.title}
                 </h3>
               </Split>
               <Split>
@@ -53,29 +48,6 @@ const AboutUs2 = () => {
                   {AboutUs2Date.content}
                 </p>
               </Split>
-              <div className="ftbox mt-30">
-                <ul>
-                  {AboutUs2Date.features.map((feature) => (
-                    <li
-                      key={feature.id}
-                      className={`wow fadeIn ${feature.id == 2 ? "space" : ""}`}
-                      data-wow-delay={feature.wowDelay}
-                    >
-                      <span
-                        className={`icon color-font pe-7s-${feature.icon}`}
-                      ></span>
-                      <h6>
-                        {feature.name.first} <br /> {feature.name.second}
-                      </h6>
-                      <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
           </div>
         </div>
