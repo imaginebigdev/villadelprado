@@ -1,7 +1,7 @@
 import React from "react";
-import featuresData from "../../data/sections/features.json";
+import featuresData from "../../data/sections/features4.json";
 
-const Services4 = ({serviceMB50}) => {
+const Services4 = ({ serviceMB50 }) => {
   return (
     <section className="services box section-padding">
       <div className="container">
@@ -9,11 +9,10 @@ const Services4 = ({serviceMB50}) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                en caso de emergencias comuniquese a
               </h6>
-              <h3 className="wow color-font">
-                We are a new digital product development agency
-              </h3>
+              <h5>(3547) 507415</h5>
+              <h3 className="wow color-font">Numeros de emergencia </h3>
             </div>
           </div>
         </div>
@@ -26,12 +25,14 @@ const Services4 = ({serviceMB50}) => {
             >
               <div
                 className={`item-box no-curve ${
-                  serviceMB50 && index + 1 != featuresData.length - 1 ? "mb-50" : ""
+                  serviceMB50 && index + 1 != featuresData.length - 1
+                    ? "mb-50"
+                    : ""
                 }`}
               >
                 <span className={`icon color-font ${item.icon}`}></span>
-                <h6>{item.title}</h6>
-                <p>{item.content}</p>
+                <h6>{item.phone}</h6>
+                <h5>{item.title}</h5>
               </div>
             </div>
           ))}

@@ -18,6 +18,17 @@ const Works = () => {
   }, [pageLoaded]);
   return (
     <section className="work-carousel metro position-re pb-100">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-10">
+            <div className="sec-head text-center">
+              <h3 className="wow color-font">
+                Ultimas publicaciones de instagram
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 no-padding">

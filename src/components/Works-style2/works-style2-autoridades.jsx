@@ -21,10 +21,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head text-center">
-                <h6>Portfolio</h6>
-                <h3 className="wow color-font">
-                  Our Recent Web Design &amp; <br /> Some Past Projects.
-                </h3>
+                <h3 className="wow color-font">Áreas de Gobierno</h3>
               </div>
             </div>
           </div>
@@ -35,6 +32,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
           <div className="gallery full-width">
             {Data?.map((n) => (
               <div
+                key={n.id}
                 className={`${
                   grid === 3
                     ? "col-lg-4 col-md-6"
@@ -59,22 +57,26 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                     <a>{n.subtittle}</a>,
                   </span>
                   <div className="social-icon">
-                    <a
-                      className="portfolioSocialIcons"
-                      href="https://www.facebook.com/comunavilladelprado"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="fab fa-whatsapp"></i>
-                    </a>
-                    <a
-                      className="portfolioSocialIcons"
-                      href="https://twitter.com/villadelpradotw"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </a>
+                    {n.whatsapp.length > 0 && (
+                      <a
+                        className="portfolioSocialIcons"
+                        href={`https://api.whatsapp.com/send?phone=${n.whatsapp}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fab fa-whatsapp"></i>
+                      </a>
+                    )}
+                    {n.instagram.length > 0 && (
+                      <a
+                        className="portfolioSocialIcons"
+                        href={n.instagram}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

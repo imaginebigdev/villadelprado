@@ -1,100 +1,114 @@
 [
   {
     "id": 1,
-    "tittle": "TITULO 1",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 1"
+    "tittle": "Sandra Díaz",
+    "img": "/img/asesores/1.png",
+    "instagram": "https://www.instagram.com/sandradiazvdp/",
+    "whatsapp": "5493547636547",
+    "subtittle": "Secretaria General"
   },
   {
     "id": 2,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Dr. Leandro Morer",
+    "img": "/img/asesores/2.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Asesor Letrado"
   },
   {
     "id": 3,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Claudio Pereyra",
+    "img": "/img/asesores/3.png",
+    "instagram": "",
+    "whatsapp": "5493516766473",
+    "subtittle": "Registro Civil"
   },
   {
     "id": 4,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Ezequiel Bazan",
+    "img": "/img/asesores/4.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Obras Públicas"
   },
   {
     "id": 5,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Yanina Lopez",
+    "img": "/img/asesores/5.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Rentas"
   },
   {
     "id": 6,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Soledad Fernandez",
+    "img": "/img/asesores/6.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Rentas"
   },
   {
     "id": 7,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Fernando Funes",
+    "img": "/img/asesores/7.png",
+    "instagram": "",
+    "whatsapp": "5493515740837",
+    "subtittle": "Administración"
   },
   {
     "id": 8,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Daniel Heredia",
+    "img": "/img/asesores/8.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Rentas generales"
   },
   {
     "id": 9,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Ruth Sanchez",
+    "img": "/img/asesores/9.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Atención al ciudadano"
   },
   {
     "id": 10,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Mariela Arrieta",
+    "img": "/img/asesores/10.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Atención al ciudadano"
   },
   {
     "id": 11,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Vanesa Calderon",
+    "img": "/img/asesores/11.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Finanzas"
   },
   {
     "id": 12,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Laura Carabajar",
+    "img": "/img/asesores/12.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Comunicación y Protocolo"
   },
   {
     "id": 13,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Sergio Chanampa",
+    "img": "/img/asesores/13.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Area de Cultura"
   },
   {
     "id": 14,
-    "tittle": "TITULO 2",
-    "img": "/img/min-area.png",
-    "link": "",
-    "subtittle": "contenido 2"
+    "tittle": "Sebastián Hernandez",
+    "img": "/img/asesores/14.png",
+    "instagram": "",
+    "whatsapp": "5493547628325",
+    "subtittle": "Defensa Civil"
   }
 ]

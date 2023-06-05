@@ -1,10 +1,11 @@
 import React from "react";
-import blog3Data from "../../data/blog3.json";
 import LightTheme from "../../layouts/Light";
 import Navbar from "../../components/Navbar/navbar";
-import BlogDetails from "../../components/Blog-details/blog-details";
-import PageHeader from "../../components/Page-header/page-header";
-import Footer from "../../components/Footer/footer";
+import BlogDetails from "../../components/Blog-details/blog-details-defensacivil";
+import Intro5 from "../../components/Intro5/intro5";
+import Footer2 from "../../components/Footer2/footer2";
+import Services3 from "../../components/Services3/services3";
+import Services4 from "../../components/Services4/services4";
 
 const BlogDetailsLight = () => {
   const navbarRef = React.useRef(null);
@@ -27,20 +28,12 @@ const BlogDetailsLight = () => {
     });
   }, [navbarRef]);
   return (
-    <LightTheme>
-      <div className="circle-bg">
-        <div className="circle-color fixed">
-          <div className="gradient-circle"></div>
-          <div className="gradient-circle two"></div>
-        </div>
-      </div>
+    <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <PageHeader
-        title="Blog Details."
-        paragraph="All the most current news and events of our creative team."
-      />
+      <Intro5 />
+      <Services4 />
       <BlogDetails theme="light" blog={"blog"} />
-      <Footer />
+      <Footer2 />
     </LightTheme>
   );
 };

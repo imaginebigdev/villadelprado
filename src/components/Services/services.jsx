@@ -1,5 +1,6 @@
 import React from "react";
 import featuresData from "../../data/sections/features.json";
+import Link from "next/dist/client/link";
 
 const Services = ({ style, lines }) => {
   return (
@@ -12,11 +13,8 @@ const Services = ({ style, lines }) => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
-              </h6>
               <h3 className="wow color-font">
-                We are a new digital product development agency
+                Habla directamente con los responsables por WhatsApp
               </h3>
             </div>
           </div>
@@ -44,6 +42,14 @@ const Services = ({ style, lines }) => {
                     <div className="cont">
                       <h6>{feature.title}</h6>
                       <p>{feature.content}</p>
+                      <a
+                        className="butn bord curve mt-30"
+                        target="_blank"
+                        rel="noreferrer"
+                        href={`https://api.whatsapp.com/send?phone=${feature.phone}`}
+                      >
+                        Contacto
+                      </a>
                     </div>
                   </div>
                 </div>

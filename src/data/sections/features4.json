@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "icon": "fa fa-shield-alt",
+    "title": "Destacamento Policial",
+    "phone": "(3547) 428177",
+    "content": "Sebastian Hernandez"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-ambulance",
+    "title": "Ambulancia",
+    "phone": "(3547) 628325",
+    "content": "Marcelo Herrera"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-fire-extinguisher",
+    "title": "Defensa Civil",
+    "phone": "(3547) 507415",
+    "content": "Ulises Benegas"
+  }
+]
