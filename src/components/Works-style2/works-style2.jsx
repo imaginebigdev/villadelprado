@@ -32,6 +32,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
           <div className="gallery full-width">
             {Data?.map((n) => (
               <div
+                key={n.id}
                 className={`${
                   grid === 3
                     ? "col-lg-4 col-md-6"

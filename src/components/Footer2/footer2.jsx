@@ -7,12 +7,9 @@ const Footer2 = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="item-clumn our md-mb50">
-              <a href="#0" className="logo-brand mb-50">
-                <img src="/img/logo-gr.png" alt="" />
-              </a>
               <p>
-                Sed ut perspiciatis undmnis iste natus error sit voluptatem
-                accusantium dolore udantiuy totam rem aperiam.
+                Perfil oficial de difusión de las actividades desarrolladas por
+                la Comuna de Villa Del Prado.
               </p>
             </div>
           </div>

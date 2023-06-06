@@ -11,8 +11,8 @@ const Services7 = ({ lightTheme }) => {
                 <img
                   src={
                     lightTheme
-                      ? "/img/mobile-app/app-img/light/s1.png"
-                      : "/img/mobile-app/app-img/s1.png"
+                      ? "/img/mobile-app/app-img/light/1.png"
+                      : "/img/mobile-app/app-img/1.png"
                   }
                   alt=""
                 />
@@ -98,8 +98,8 @@ const Services7 = ({ lightTheme }) => {
                 <img
                   src={
                     lightTheme
-                      ? "/img/mobile-app/app-img/light/s1.png"
-                      : "/img/mobile-app/app-img/s1.png"
+                      ? "/img/mobile-app/app-img/light/2.png"
+                      : "/img/mobile-app/app-img/2.png"
                   }
                   alt=""
                 />
@@ -183,8 +183,8 @@ const Services7 = ({ lightTheme }) => {
                 <img
                   src={
                     lightTheme
-                      ? "/img/mobile-app/app-img/light/s1.png"
-                      : "/img/mobile-app/app-img/s1.png"
+                      ? "/img/mobile-app/app-img/light/3.png"
+                      : "/img/mobile-app/app-img/3.png"
                   }
                   alt=""
                 />
