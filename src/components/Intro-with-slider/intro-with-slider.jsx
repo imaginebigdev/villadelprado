@@ -82,7 +82,7 @@ const IntroWithSlider = ({ sliderRef }) => {
                 <div
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6"
+                  data-overlay-dark="3"
                 >
                   <div className="container">
                     <div className="row justify-content-center">

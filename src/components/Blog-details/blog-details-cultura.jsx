@@ -10,7 +10,7 @@ const BlogDetailsCultura = ({ theme }) => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src="/img/blog/single.jpg" alt="" />
+                <img src="/img/act/2.jpg" alt="" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
@@ -30,7 +30,7 @@ const BlogDetailsCultura = ({ theme }) => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="mb-10">
-                            <img src="/img/blog/2.jpg" alt="" />
+                            <img src="/img/act/2.jpg" alt="" />
                           </div>
                         </div>
                         <div className="col-md-6">
@@ -39,7 +39,7 @@ const BlogDetailsCultura = ({ theme }) => {
                               className="mb-10"
                               style={{ cursor: "pointer" }}
                             >
-                              <img src="/img/blog/1.jpg" alt="" />
+                              <img src="/img/act/1.jpg" alt="" />
                             </div>
                           </Link>
                         </div>

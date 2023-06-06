@@ -38,7 +38,7 @@ const About = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 />
+      <Intro5 image="/img/arch/slid/1.jpg" />
       <MinimalArea />
 
       <WorksStyle2 grid={3} />

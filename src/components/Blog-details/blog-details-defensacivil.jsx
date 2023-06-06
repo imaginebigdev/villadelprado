@@ -11,9 +11,6 @@ const BlogDetailsDefensa = ({ theme }) => {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="post">
-              <div className="img">
-                <img src="/img/blog/single.jpg" alt="" />
-              </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">
                   <div className="col-lg-10">
@@ -68,12 +65,7 @@ const BlogDetailsDefensa = ({ theme }) => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="mb-10">
-                            <img src="/img/blog/2.jpg" alt="" />
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="mb-10">
-                            <img src="/img/blog/3.jpg" alt="" />
+                            <img src="/img/blog/2.png" alt="" />
                           </div>
                         </div>
                       </div>

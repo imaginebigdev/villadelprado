@@ -30,7 +30,7 @@ const BlogDetailsLight = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 />
+      <Intro5 image="/img/arch/slid/4.jpg" />
       <Services4 />
       <BlogDetails theme="light" blog={"blog"} />
       <Footer2 />
