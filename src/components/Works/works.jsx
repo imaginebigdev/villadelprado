@@ -97,10 +97,10 @@ const Works = () => {
                             <a href="#0">{item.title}</a>
                           </h6>
                           <h4>
-                            <Link
-                              href={`/project-details2/project-details2-dark`}
-                            >
-                              {item.secTex}
+                            <Link href={item.link}>
+                              <a target="_blank" rel="noreferrer">
+                                {item.secTex}
+                              </a>
                             </Link>
                           </h4>
                         </div>
