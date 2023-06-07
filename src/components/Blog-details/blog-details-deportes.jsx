@@ -26,7 +26,14 @@ const BlogDetailsDeportes = ({ theme }) => {
                         <p>GRATUITAS!</p>
                       </div>
                       <div className="butons mt-40 mb-40">
-                        <a className="butn bord curve mt-30">Saber mas</a>
+                        <a
+                          className="butn bord curve mt-30"
+                          href="https://api.whatsapp.com/send?phone=5493547628325"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Saber mas
+                        </a>
                       </div>
                       <div className="row">
                         <div className="col-md-6">

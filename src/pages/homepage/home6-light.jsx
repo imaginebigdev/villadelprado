@@ -8,7 +8,6 @@ import AboutUs2 from "../../components/About-us2/about-us2";
 import WorksStyle2 from "../../components/Works-style2/works-style2";
 import Works from "../../components/Works/works";
 import Footer2 from "../../components/Footer2/footer2";
-import FooterArch from "../../components/Footer-arch/footer-arch";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
