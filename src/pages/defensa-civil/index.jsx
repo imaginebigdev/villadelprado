@@ -4,7 +4,6 @@ import Navbar from "../../components/Navbar/navbar";
 import BlogDetails from "../../components/Blog-details/blog-details-defensacivil";
 import Intro5 from "../../components/Intro5/intro5";
 import Footer2 from "../../components/Footer2/footer2";
-import Services3 from "../../components/Services3/services3";
 import Services4 from "../../components/Services4/services4";
 
 const BlogDetailsLight = () => {

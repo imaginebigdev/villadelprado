@@ -2,9 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import CallToAction from "../../components/Call-to-action/call-to-action";
 import LightTheme from "../../layouts/Light";
-import MinimalArea from "../../components/Minimal-Area/minimal-area";
 import Intro5 from "../../components/Intro5/intro5";
-import WorksStyle2 from "../../components/Works-style2/works-style2-autoridades";
 import Footer2 from "../../components/Footer2/footer2";
 
 import Services7 from "../../components/Services7/services7";

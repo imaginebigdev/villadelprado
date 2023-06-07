@@ -2,7 +2,6 @@ import React from "react";
 import LightTheme from "../../layouts/Light";
 import Navbar from "../../components/Navbar/navbar";
 import BlogDetails from "../../components/Blog-details/blog-details-deportes";
-import Footer from "../../components/Footer/footer";
 import Intro5 from "../../components/Intro5/intro5";
 import Footer2 from "../../components/Footer2/footer2";
 

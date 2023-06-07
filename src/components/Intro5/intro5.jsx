@@ -1,6 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import intro5Data from "../../data/sections/intro5.json";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
 import "swiper/css";
