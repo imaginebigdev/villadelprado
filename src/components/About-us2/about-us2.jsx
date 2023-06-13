@@ -35,19 +35,16 @@ const AboutUs2 = () => {
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="content">
-              <Split>
-                <h3
-                  className="words chars splitting main-title wow"
-                  data-splitting
-                >
-                  {AboutUs2Date.title}
-                </h3>
-              </Split>
-              <Split>
-                <p className="words chars splitting wow txt" data-splitting>
-                  {AboutUs2Date.content}
-                </p>
-              </Split>
+              <h3
+                className="words chars splitting main-title wow"
+                data-splitting
+              >
+                {AboutUs2Date.title}
+              </h3>
+
+              <p className="words chars splitting wow txt" data-splitting>
+                {AboutUs2Date.content}
+              </p>
             </div>
           </div>
         </div>

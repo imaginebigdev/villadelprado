@@ -3,27 +3,30 @@ import React from "react";
 const Footer2 = () => {
   return (
     <footer className="app-footer" data-overlay-dark="0">
-      <div className="text-center">
-        <h3 className="mb-50">Numeros utiles</h3>
-        <ul className="row mb-50" style={{ justifyContent: "space-evenly" }}>
+      <div>
+        <h3 className="mb-50 text-center">Numeros utiles</h3>
+        <ul
+          className="row mb-50 text-center"
+          style={{ justifyContent: "space-evenly", marginRight: 0 }}
+        >
           <li className="mb-20">
-            <h4>Atención al vecino</h4>
-            <h5>(3547) 628325</h5>
+            <h5>Atención al vecino</h5>
+            <p>(3547) 628325</p>
           </li>
           <br />
           <li className="mb-20">
-            <h4>Policia</h4>
-            <h5>(3547) 428177</h5>
+            <h5>Policia</h5>
+            <p>(3547) 428177</p>
           </li>
           <br />
           <li className="mb-20">
-            <h4>Defensa civil</h4>
-            <h5>(3547) 507415</h5>
+            <h5>Defensa civil</h5>
+            <p>(3547) 507415</p>
           </li>
           <br />
           <li className="mb-20">
-            <h4>Comuna</h4>
-            <h5>(3547) 428177</h5>
+            <h5>Comuna</h5>
+            <p>(3547) 428177</p>
           </li>
         </ul>
       </div>

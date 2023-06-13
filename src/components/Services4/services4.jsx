@@ -19,7 +19,7 @@ const Services4 = ({ serviceMB50 }) => {
         <div className="row">
           {featuresData.slice(0, 3).map((item, index) => (
             <div
-              className="col-lg-4 wow fadeInLeft"
+              className="col-lg-4 wow fadeInLeft mb-20"
               data-wow-delay={index == 0 ? ".5s" : index == 1 ? ".7s" : ".9s"}
               key={item.id}
             >

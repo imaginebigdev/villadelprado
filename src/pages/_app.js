@@ -5,6 +5,7 @@ import Cursor from "../components/cursor";
 import ScrollToTop from "../components/scrollToTop";
 import LoadingScreen from "../components/Loading-Screen";
 import "../styles/main.scss";
+import WhatsappButton from "../components/whatsapp-button/whatsapp-button";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Cursor />
       <LoadingScreen />
       <Component {...pageProps} />
+      <WhatsappButton />
       <ScrollToTop />
       <Script id="wow" src="/js/wow.min.js"></Script>
       <Script

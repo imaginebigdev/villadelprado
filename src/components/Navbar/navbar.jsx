@@ -11,6 +11,7 @@ const Navbar = ({ lr, nr, theme }) => {
       className={`navbar navbar-expand-lg change ${
         theme === "themeL" ? "light" : ""
       }`}
+      style={{ background: "#fff", borderColor: "#f5f5f5" }}
     >
       <div className="container">
         <Link href="/">

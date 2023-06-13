@@ -1767,7 +1767,7 @@ span:hover {
 .navbar .navbar-nav .nav-link {
   font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
   padding: 15px 7px;
   margin: 10px 15px;
 }
@@ -2249,6 +2249,46 @@ span:hover {
 }
 
 /* ====================== [ End navbar ] ====================== */
+/* ====================== [ Start WhatsApp Button ] ====================== */
+#whatsapp-float {
+  display: none;
+}
+
+#whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 100px;
+  right: 25px;
+  background-color: #66c52f;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+#whatsapp-float:hover {
+  text-decoration: none;
+  background-color: #e6e6e6;
+  color: #66c52f;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+@media screen and (max-width: 991px) {
+  #whatsapp-float {
+    right: 5px;
+    width: 50px;
+    height: 50px;
+  }
+  .my-float {
+    margin-top: 10px;
+  }
+}
+/* ====================== [ End WhatsApp Button ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
 .slider {
   position: relative;

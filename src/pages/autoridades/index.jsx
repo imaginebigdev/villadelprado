@@ -31,7 +31,6 @@ const About = () => {
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <Intro5 image="/img/arch/slid/1.jpg" />
       <MinimalArea />
-
       <WorksStyle2 grid={3} />
       <Footer2 />
     </LightTheme>
