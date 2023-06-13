@@ -14,7 +14,7 @@ const Services = ({ style, lines }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h3 className="wow color-font">
-                Habla directamente con los responsables por WhatsApp
+                Hablá directamente con los responsables por WhatsApp
               </h3>
             </div>
           </div>

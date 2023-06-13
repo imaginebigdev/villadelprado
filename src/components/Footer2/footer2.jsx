@@ -4,7 +4,7 @@ const Footer2 = () => {
   return (
     <footer className="app-footer" data-overlay-dark="0">
       <div>
-        <h3 className="mb-50 text-center">Numeros utiles</h3>
+        <h3 className="mb-50 text-center">Números útiles</h3>
         <ul
           className="row mb-50 text-center"
           style={{ justifyContent: "space-evenly", marginRight: 0 }}
@@ -15,7 +15,7 @@ const Footer2 = () => {
           </li>
           <br />
           <li className="mb-20">
-            <h5>Policia</h5>
+            <h5>Policía</h5>
             <p>(3547) 428177</p>
           </li>
           <br />
@@ -36,7 +36,7 @@ const Footer2 = () => {
             <div className="col-12">
               <div className="text-center">
                 <p>
-                  © 2023 Imagine Big. Pagina oficial de la municipalidad Villa
+                  © 2023 Imagine Big. Página oficial de la municipalidad Villa
                   Del Prado
                 </p>
               </div>

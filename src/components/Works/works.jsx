@@ -23,7 +23,7 @@ const Works = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
               <h3 className="wow color-font">
-                Ultimas publicaciones de instagram
+                Últimas publicaciones de instagram
               </h3>
             </div>
           </div>

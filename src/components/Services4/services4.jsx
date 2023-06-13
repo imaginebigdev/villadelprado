@@ -9,10 +9,10 @@ const Services4 = ({ serviceMB50 }) => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                en caso de emergencias comuniquese a
+                en caso de emergencias comuníquese a
               </h6>
               <h5>(3547) 507415</h5>
-              <h3 className="wow color-font">Numeros de emergencia </h3>
+              <h3 className="wow color-font">Números de emergencia </h3>
             </div>
           </div>
         </div>

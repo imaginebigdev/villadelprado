@@ -22,7 +22,7 @@ const AboutUs4 = () => {
               <div className="vid-area">
                 <div className="vid-icon">
                   <Link href="/cultura">
-                    <a className="butn bord curve mt-30">Saber mas</a>
+                    <a className="butn bord curve mt-30">Saber más</a>
                   </Link>
                 </div>
               </div>
