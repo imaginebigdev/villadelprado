@@ -30,7 +30,11 @@ const About = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 image="/img/arch/slid/0.jpg" />
+      <Intro5
+        image="/img/arch/slid/0.jpg"
+        title="#MASCERCATUYO"
+        subtitle="En esta sección vas a poder conoce, todo lo servicio que ofrece la comuna"
+      />
       <Services7 />
       <CallToAction />
       <Footer2 />

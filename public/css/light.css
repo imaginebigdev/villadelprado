@@ -2259,7 +2259,7 @@ span:hover {
   width: 60px;
   height: 60px;
   bottom: 100px;
-  right: 25px;
+  right: 23px;
   background-color: #66c52f;
   color: #fff;
   border-radius: 50px;
@@ -2280,7 +2280,7 @@ span:hover {
 }
 @media screen and (max-width: 991px) {
   #whatsapp-float {
-    right: 5px;
+    right: 12px;
     width: 50px;
     height: 50px;
   }

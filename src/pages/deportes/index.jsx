@@ -28,7 +28,11 @@ const BlogDetailsLight = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 image="/img/arch/slid/2.jpg" />
+      <Intro5
+        image="/img/arch/slid/2.jpg"
+        title="ENTRENAR SIEMPRE ES BUENA IDEA"
+        subtitle="Conoce nuestras actividades "
+      />
       <BlogDetails theme="light" blog={"blog"} />
       <Footer2 />
     </LightTheme>

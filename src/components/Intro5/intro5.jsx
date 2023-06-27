@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashpagination";
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
-const Intro5 = ({ image }) => {
+const Intro5 = ({ image, title, subtitle }) => {
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
     removeSlashFromPagination();
@@ -70,7 +70,19 @@ const Intro5 = ({ image }) => {
               <div
                 className="bg-img valign"
                 style={{ backgroundImage: `url(${image})` }}
-              ></div>
+                data-overlay-dark="6"
+              >
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-lg-8 col-md-10">
+                      <div className="caption center mt-30">
+                        <h1 style={{ color: "#C6F018" }}>{title}</h1>
+                        <p>{subtitle}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SwiperSlide>
           </Swiper>
         ) : null}

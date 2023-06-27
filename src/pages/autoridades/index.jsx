@@ -29,7 +29,11 @@ const About = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 image="/img/arch/slid/1.jpg" />
+      <Intro5
+        image="/img/arch/slid/1.jpg"
+        title="Conoce nuestras autoridades"
+        subtitle="Lideres en la transformación digital de la comuna, trabajando constantemente para mejorar la calidad de vida de los habitantes de villa del prado."
+      />
       <MinimalArea />
       <WorksStyle2 grid={3} />
       <Footer2 />

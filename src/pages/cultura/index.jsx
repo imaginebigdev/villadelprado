@@ -28,7 +28,12 @@ const BlogDetailsLight = () => {
   return (
     <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
-      <Intro5 image="/img/arch/slid/3.jpg" />
+      <Intro5
+        image="/img/arch/slid/3.jpg"
+        title="CULTURA"
+        subtitle="Sé parte de los talleres y cursos que ofrece el 
+Centro Cultural Mercedes Sosa"
+      />
       <BlogDetails theme="light" blog={"blog"} />
       <Footer2 />
     </LightTheme>

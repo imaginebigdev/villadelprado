@@ -19,11 +19,11 @@ const Services7 = ({ lightTheme }) => {
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 valign">
-              <div className="content">
-                <h6 className="stit mb-30">
+              <div className="content" style={{ width: "100%" }}>
+                <h6 className="stit mb-30 text-center">
                   <span className="left"></span> TURNOS ONLINE
                 </h6>
-                <h2 className="mb-30">
+                <h2 className="mb-30 text-center">
                   Pedí tu Turno Online. Sin moverte de tu casa
                 </h2>
 
@@ -78,7 +78,7 @@ const Services7 = ({ lightTheme }) => {
                       Consultas{" "}
                     </li>
                   </ul>
-                  <div className="butons mt-40">
+                  <div className="butons mt-40 text-center">
                     <a href="#0" className="butn-gr rounded buton">
                       <span>Sacar turno</span>
                     </a>
@@ -106,11 +106,11 @@ const Services7 = ({ lightTheme }) => {
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 valign">
-              <div className="content">
-                <h6 className="stit mb-30">
+              <div className="content" style={{ width: "100%" }}>
+                <h6 className="stit mb-30 text-center">
                   <span className="left"></span> MÁS INFO MIS IMPUESTOS
                 </h6>
-                <h2 className="mb-30">Pagá tus impuestos</h2>
+                <h2 className="mb-30 text-center">Pagá tus impuestos</h2>
 
                 <div className="list-feat mt-40">
                   <ul>
@@ -163,7 +163,7 @@ const Services7 = ({ lightTheme }) => {
                       Consultá tus dudas
                     </li>
                   </ul>
-                  <div className="butons mt-40">
+                  <div className="butons mt-40 text-center">
                     <a href="#0" className="butn-gr rounded buton">
                       <span>Mas info</span>
                     </a>
@@ -191,11 +191,13 @@ const Services7 = ({ lightTheme }) => {
               </div>
             </div>
             <div className="col-lg-6 offset-lg-1 valign">
-              <div className="content">
-                <h6 className="stit mb-30">
+              <div className="content" style={{ width: "100%" }}>
+                <h6 className="stit mb-30 text-center">
                   <span className="left"></span> RECREACIÓN Y DEPORTES
                 </h6>
-                <h2 className="mb-30">Club social y Polideportivo</h2>
+                <h2 className="mb-30 text-center">
+                  Club social y Polideportivo
+                </h2>
 
                 <div className="list-feat mt-40">
                   <ul>
@@ -248,7 +250,7 @@ const Services7 = ({ lightTheme }) => {
                       Y mucho más...
                     </li>
                   </ul>
-                  <div className="butons mt-40">
+                  <div className="butons mt-40 text-center">
                     <a href="#0" className="butn-gr rounded buton">
                       <span>Ver actividades</span>
                     </a>
