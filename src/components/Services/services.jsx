@@ -35,11 +35,9 @@ const Services = ({ style, lines }) => {
                       : "1.1"
                   }s`}
                 >
-                  <div className="item-box">
-                    <div>
+                  <div className="item-box text-center">
+                    <div className="cont" style={{ width: "100%" }}>
                       <span className={`icon ${feature.icon}`}></span>
-                    </div>
-                    <div className="cont">
                       <h6>{feature.title}</h6>
                       <p>{feature.content}</p>
                       <a

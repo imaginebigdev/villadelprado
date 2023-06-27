@@ -8,6 +8,10 @@ import AboutUs2 from "../../components/About-us2/about-us2";
 import WorksStyle2 from "../../components/Works-style2/works-style2";
 import Works from "../../components/Works/works";
 import Footer2 from "../../components/Footer2/footer2";
+import Services5 from "../../components/Services5/services5";
+import Services6 from "../../components/Services6/services6";
+import Services3 from "../../components/Services3/services3";
+import Services2 from "../../components/Services2/services2";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
