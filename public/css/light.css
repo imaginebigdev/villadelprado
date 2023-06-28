@@ -8249,7 +8249,7 @@ footer .item .copy-right p a {
   .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
-    background: #fff;
+    background: #ebebeb;
     text-align: center;
     display: block !important;
     opacity: 0;
@@ -8275,7 +8275,7 @@ footer .item .copy-right p a {
 
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
-    color: #fff !important;
+    color: #000 !important;
   }
 
   .nav-scroll .navbar-collapse .active,
