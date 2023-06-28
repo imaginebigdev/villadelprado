@@ -26,7 +26,7 @@ const MinimalArea = () => {
               />
             </div>
           </div>
-          <div className="col-lg-6 valign">
+          <div className="col-lg-6 valign text-center">
             <div className="content pt-0">
               <h4 className="wow color-font">Nelson Luján</h4>
               <p className="wow txt" data-splitting>

@@ -6594,6 +6594,11 @@ span:hover {
 }
 
 /* ====================== [ End Team ] ====================== */
+
+.img-responsive-swiper {
+  background-image: url(/img/slid/03.jpg);
+}
+
 /* ====================== [ Start Testimonials ] ====================== */
 .testimonials .container-fluid {
   width: 140%;
@@ -8234,7 +8239,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .icon-bar {
-    color: #fff;
+    color: #000;
   }
 
   .navbar {
@@ -8244,7 +8249,7 @@ footer .item .copy-right p a {
   .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
-    background: #11141b;
+    background: #fff;
     text-align: center;
     display: block !important;
     opacity: 0;
@@ -8316,7 +8321,7 @@ footer .item .copy-right p a {
     display: none;
     background: #0c0f16;
     text-align: center;
-    color: #eee;
+    color: #fff;
   }
 
   .navbar-nav .dropdown-menu .dropdown-item {
@@ -8332,7 +8337,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .navbar-nav .nav-link:hover {
-    color: #0c648a;
+    color: #fff;
   }
 
   .slider .parallax-slider .caption.dig {
@@ -8479,7 +8484,7 @@ footer .item .copy-right p a {
 
   .min-area .content,
   .min-area .img {
-    padding: 120px 0;
+    padding: 50px 0;
   }
 
   .services .rtwo > div:nth-of-type(2),
@@ -8552,6 +8557,10 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+  .img-responsive-swiper {
+    background-image: url(/img/slid/02.jpg);
+  }
+
   .sm-mb10 {
     margin-bottom: 10px;
   }
